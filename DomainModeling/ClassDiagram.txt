@@ -1,0 +1,22 @@
+@startuml
+
+class Dictionary
+class Article
+class Entry
+class MorpholicalData
+class Acceptances
+class Definition
+class Example
+class Synonymous
+class Observations
+
+Dictionary *-down-> "1..*" Article
+Article *-down-> Entry
+Article *-down-> MorpholicalData
+Article *-down-> "1..*"Acceptances
+Article *-down-> "1..*" Definition
+Article *-down-> "1..*" Example
+Article *-down-> "1--*" Synonymous
+Article *-down-> "1..*" Observations
+
+@enduml

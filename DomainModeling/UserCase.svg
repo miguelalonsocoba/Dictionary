@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="100px" preserveAspectRatio="none" style="width:256px;height:100px;background:#FFFFFF;" version="1.1" viewBox="0 0 256 100" width="256px" zoomAndPan="magnify"><defs/><g><!--MD5=[1c9579b56a6f749978c28a18a9c88ba5]
+cluster Dictionary_System--><g id="cluster_Dictionary_System"><path d="M83.5,6 L235.5,6 A3.75,3.75 0 0 1 238,8.5 L245,28.2969 L246.5,28.2969 A2.5,2.5 0 0 1 249,30.7969 L249,86.5 A2.5,2.5 0 0 1 246.5,89 L83.5,89 A2.5,2.5 0 0 1 81,86.5 L81,8.5 A2.5,2.5 0 0 1 83.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="81" x2="245" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="151" x="85" y="20.9951">Dictionary_System</text></g><g id="elem_sw"><ellipse cx="165.24" cy="57.048" fill="#F1F1F1" rx="68.24" ry="16.048" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="118.24" y="60.7956">Search word</text></g><!--MD5=[7d46d6cd919e02e6168a09ad91eae8b4]
+entity u--><g id="elem_u"><ellipse cx="21.5" cy="27.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M21.5,35.5 L21.5,62.5 M8.5,43.5 L34.5,43.5 M21.5,62.5 L8.5,77.5 M21.5,62.5 L34.5,77.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="6" y="91.9951">User</text></g><!--MD5=[68b1cc6e235cc8692587f654c1ea1280]
+link u to sw--><g id="link_u_sw"><path d="M37.11,57 C50.3803,57 71.0047,57 91.7966,57 " fill="none" id="u-to-sw" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="96.7966,57,87.7966,53,91.7966,57,87.7966,61,96.7966,57" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c211b4b36c99c63188b20183b6eb6059]
+@startuml
+left to right direction
+actor User as  u
+
+package Dictionary_System {
+  usecase "Search word" as sw
+}
+
+u - -> sw
+@enduml
+
+PlantUML version 1.2022.10beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
